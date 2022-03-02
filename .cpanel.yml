@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/codexeg/geocrypto.codexeg.net/
+    - /bin/cp -R * $DEPLOYPATH
